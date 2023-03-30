@@ -19,6 +19,9 @@ def main():
 
     msg = f"Second max value is {second}."
 
+
+
+
     view.write(msg)
 
 
