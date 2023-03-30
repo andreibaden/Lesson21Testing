@@ -1,5 +1,6 @@
 import view
 import logic
+import util
 
 
 # controller
@@ -11,10 +12,10 @@ def main():
         else:
             view.write("Error. User data was invalid.")
 
-    ls = create_list(size)
+    ls = util.create_list(size)
 
-    rnd_init_list(ls)
-    user_init_list(ls)
+    # rnd_init_list(ls)
+    util.user_init_list(ls)
 
     second = logic.find_second_max_value(ls)
 
