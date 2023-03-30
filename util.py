@@ -1,3 +1,5 @@
+import random
+
 def create_list(size):
     ls = []
 
@@ -10,3 +12,9 @@ def create_list(size):
 def user_init_list(ls):
     for index in range(len(ls)):
         ls[index] = int(input(f"Input [{index + 1}] - element: "))
+
+
+# new
+def rnd_init_list(ls, mn, mx):
+    for index in range(len(ls)):
+        ls[index] = random.randint(mn, mx)
