@@ -1,6 +1,7 @@
 import view
 import logic
 
+
 # controller
 def main():
     while True:
@@ -19,11 +20,7 @@ def main():
 
     msg = f"Second max value is {second}."
 
-
-
-
     view.write(msg)
-
 
 
 if __name__ == "__main__":

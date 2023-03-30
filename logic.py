@@ -12,5 +12,7 @@ def find_second_max_value(ls):
 
     return second_max_value
 
-ls = [76, 2, 36, 55, 77]
-print(find_second_max_value(ls))
+
+if __name__ == "__main__":
+    ls = [76, 2, 36, 55, 77]
+    print(find_second_max_value(ls))
